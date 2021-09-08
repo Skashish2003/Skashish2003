@@ -1,0 +1,15 @@
+1.   #include<stdio.h>
+2.     int main(){
+3.	int a,b;
+4.	printf("Enter the value of a\n");
+5.	scanf("%d",&a);
+6.	printf("Enter the value of b\n");
+7.	scanf("%d",&b);
+8.	printf("After swapping ,the value of a and b is %d and %d\n",a,b);
+9.	a = a+b;
+10.	b = a-b;
+11.	a = a-b;
+12.	printf("Before swapping ,the value of a and b is %d and %d",a,b);
+13.  return 0;
+14.    }
+       
